@@ -1,4 +1,4 @@
-# 安装
+## 安装
 
 - wget http://labfile.oss.aliyuncs.com/files0422/redis-2.8.9.tar.gz
 
@@ -15,9 +15,9 @@
 - make test
 
 
-# Redis启动
+## Redis启动
 
-### 将可执行文件放置在$PATH环境目录下，便于以后执行程序时可以不用输入完整的路径
+#### 将可执行文件放置在$PATH环境目录下，便于以后执行程序时可以不用输入完整的路径
 
 - cp redis-server /usr/local/bin
 
@@ -33,7 +33,7 @@
 
 - netstat -nlt|grep 6397
 
-# 启动Redis-client
+## 启动Redis-client
 
 - redis-cli
 
